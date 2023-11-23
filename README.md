@@ -70,35 +70,35 @@
    - Insincerity of "philanthropy"
 
 2. Cost-efficiency
-  - Adjective describing self-interest vs. beneficence to humanity
-  - Philanthropy and benefit to humanity is not a sustainable model
-  - Presented a `bias-variance` trade-off
-  - OpenAI board and [mission statement](https://openai.com) should be investigated
-  - From humanities human, all-to-human errors, we keep getting the best out our race!
+   - Adjective describing self-interest vs. beneficence to humanity
+   - Philanthropy and benefit to humanity is not a sustainable model
+   - Presented a `bias-variance` trade-off
+   - OpenAI board and [mission statement](https://openai.com) should be investigated
+   - From humanities human, all-to-human errors, we keep getting the best out our race!
 
 3. Exclusive [datasets](https://dl.acm.org/doi/fullHtml/10.1145/3531146.3533231)
-  - In one mode something are possible and others aren't (think `blue notes`)
-  - Mostly exclusive access to sufficienet tokens for computing demands
-  - This is the true limiting factor
+   - In one mode something are possible and others aren't (think `blue notes`)
+   - Mostly exclusive access to sufficienet tokens for computing demands
+   - This is the true limiting factor
 
 4. Deep expertise
-  - Subject, agency, principal
-  - Market place believed he and team had deep expertise
-  - Leaving him out there would disadvantage OpenAI
+   - Subject, agency, principal
+   - Market place believed he and team had deep expertise
+   - Leaving him out there would disadvantage OpenAI
 
 5. Transparency
-  - Process and more
-  - Altman's board claimed he wasn't forthwright with them
-  - Foucault will remind us about power structures
-  - Will-to-Power if you will
+   - Process and more
+   - Altman's board claimed he wasn't forthwright with them
+   - Foucault will remind us about power structures
+   - Will-to-Power if you will
 
 6. `Object`
-  - `Semantics`
-  - Meaning of it all
-  - Derives from `Syntax` & Structures Foucault would point us to
-  - Agency of the subject, "doer", and consent of object, "recipient"
-  - Foucault would also take us back to `Phonology` and "voir": visibility of these structures to all at play
-  - Ultimate meaning lies in costs of process, quality of dataset, and exclusivity to those in power (e.g. owners of land and platforms)
+   - `Semantics`
+   - Meaning of it all
+   - Derives from `Syntax` & Structures Foucault would point us to
+   - Agency of the subject, "doer", and consent of object, "recipient"
+   - Foucault would also take us back to `Phonology` and "voir": visibility of these structures to all at play
+   - Ultimate meaning lies in costs of process, quality of dataset, and exclusivity to those in power (e.g. owners of land and platforms)
 
 
 ***From an S&P Dow Jones Indices advert (Adapted to my format)*** 
