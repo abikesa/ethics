@@ -99,7 +99,7 @@
    - Agency of the subject, "doer", and consent of object, "recipient"
    - Foucault would also take us back to `Phonology` and "voir": visibility of these structures to all at play
    - Ultimate meaning lies in costs of process, quality of dataset, and exclusivity to those in power (e.g. owners of land and platforms)
-
+   - `Data as product` in the highest-level service industry that "hands back agency" to the Principal :)
 
 ***From an S&P Dow Jones Indices advert (Adapted to my format)*** 
 
