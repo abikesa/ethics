@@ -1,113 +1,89 @@
+# Miller's Crossing
+
+# Stata I (Basic)
+
+
 ```
-    1. Note
-           \
-3. Scale -> 2. Chord -> 5. Rhythm -> 6. Effect
-           /
-            4. Motiv
-``` 
 
 
-“It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own self-interest. We address ourselves not to their humanity but to their self-love, and never talk to them of our own necessities, but of their advantages”
-
-― Adam Smith, An Inquiry into the Nature & Causes of the Wealth of Nations, Vol 1
-
-1. Note
-   - Phonology
-   - Voir
-     
-3. Chord
-   - Modifier
-     
-4. Scale
-   - Mode
-   - Syntax
-     
-6. Motiv
-   - Agent
-   - What motivates the agent
-   - Self-interest or benefit to humanity?
-   - From an aesthetic perspective its self-interest
-   - Adam Smith's key aesthetic argument agrees to
-   - Moral stance of OpenAI charter proved itself a contradition
-   - To think that ChatGPT wasn't even the goal but merely "compromise"?
-   - We are grateful that this pragmatic compromise cam to fruition
-   - Proof is in the pudding
-   - Firing of Sam Altman and the ensuring drama merely reinforced this stance
-     
-7. Rhythm
-   - Verb
-  
-     
-8. Effect
-   - Transformation/Mutation
-     - Deletion
-     - Substitution
-     - Translocation
-       
-   - From:
-     - Deep syntactic
-     - Via prosaic surface structure
-     - Ultimately to poetic or `metaphoric` super-surface
-     - Emergence of ambiguity
-       
-   - Meaning/Semantics
-     - How meaningful is ambiguity?
-     - Thats the difference between poetry and prose
-       
+From: Ning Meng <nmeng2@jh.edu>
+Date: Wednesday, May 8, 2024 at 09:48
+To: Abimereki Muzaale <muzaale@jhmi.edu>, Vincent Jin <zjin26@jhmi.edu>, Natalie Daya Malek <ndaya1@jhu.edu>, Xujun Gu <xgu23@jhmi.edu>, Maya Aboumrad <maboumr1@jhmi.edu>, Darien Colson-Fearon <dcolson3@jhmi.edu>
+Subject: Request for Advice on Assignment Issue
+Dear Team,
  
-```
-      1. Icons
-               \
-3. Language -> 2. Adjective -> 5. Verb -> 6. Object
-               /
-                4. Subject
-``` 
-
-
-
-1. Icons
-   - OpenAI, Adam Smith, Moral Philosophy
-   - Insincerity of "philanthropy"
-
-2. Cost-efficiency
-   - Adjective describing self-interest vs. beneficence to humanity
-   - Philanthropy and benefit to humanity is not a sustainable model
-   - Presented a `bias-variance` trade-off
-   - OpenAI board and [mission statement](https://openai.com) should be investigated
-   - From humanities human, all-to-human errors, we keep getting the best out our race!
-
-3. Exclusive [datasets](https://dl.acm.org/doi/fullHtml/10.1145/3531146.3533231)
-   - In one mode something are possible and others aren't (think `blue notes`)
-   - Mostly exclusive access to sufficienet tokens for computing demands
-   - This is the true limiting factor
-
-4. Deep expertise
-   - Subject, agency, principal
-   - Market place believed he and team had deep expertise
-   - Leaving him out there would disadvantage OpenAI
-
-5. Transparency
-   - Process and more
-   - Altman's board claimed he wasn't forthwright with them
-   - Foucault will remind us about power structures
-   - Will-to-Power if you will
-
-6. `Object`
-   - `Semantics`
-   - Meaning of it all
-   - Derives from `Syntax` & Structures Foucault would point us to
-   - Agency of the subject, "doer", and consent of object, "recipient"
-   - Foucault would also take us back to `Phonology` and "voir": visibility of these structures to all at play
-   - Ultimate meaning lies in costs of process, quality of dataset, and exclusivity to those in power (e.g. owners of land and platforms)
-   - `Data as product` in the highest-level service industry that "hands back agency" to the Principal :)
-
-***From an S&P Dow Jones Indices advert (Adapted to my format)*** 
-
+I hope this message finds you well. I am writing to discuss a situation faced when grading homework.
  
+Some student submitted their homework late, and the content is closely identical to the provided solution. Our course preface on academic integrity permits the use of sourced code snippets, provided they are properly cited, which was not done in this case.
+ 
+After talking with Prof. Muzaale, we are considering marking the submission as "Ungraded" with a request for resubmission that truly reflects the student's own work, to be completed by Thursday, May 16. This resubmission would be subject to point deductions for both lateness and academic integrity concerns, though the latter would not be formally recorded.
+ 
+We would appreciate your feedback on this approach or hear if you have any alternative suggestions based on your past experiences.
+ 
+Thank you for your time.
+ 
+Sincerely,
+ 
+Ning
+
+
+
+From: Abimereki Muzaale <muzaale@jhmi.edu>
+Date: Wednesday, May 8, 2024 at 09:08
+To: Ning Meng <nmeng2@jh.edu>, Maya Aboumrad <maboumr1@jhmi.edu>
+Subject: Re: homework 5
+Thanks for raising this issue, Maya! 
+
+Looking at the rubric, I'm drawn to:
+#4. Incorrect .xlsx output. So, they lose some -2pt here
+
+And at the Preface of the class book I'm drawn to the second last paragraph:
+'Regarding academic integrity, we encourage the use of small code snippets from books, the internet, or peers, provided they’re cited, as shown below:'
+
+/```stata
+tokenize `c(ALPHA)'  // Adapted from https://www.statalist.org/forums/forum/general-stata-discussion/general/1380433-creating-a-counter-with-alphabets
+Creating a counter with alphabets - Statalist 
+Hi there, We often use a numeric 'counter' in loops. Example code: local i = 1 foreach .....{ ....`i'... local i = `i' + 1 } How could I do it using alphabets?
+www.statalist.org
+
+/```
+
+So,  you can cite this Preface and write a comment expressing concern that her solution looks identical to the answer key (in both commission [code & comments] and omission [excel output]), and that she did not appropriately cite her source (which we presume is the homework solution, given her late submission).
+ 
+Make a comment at the top of her script that says something like Ungraded (see comments below). Then ask her to resubmit something authentic: her own version of the solution or her understanding of the solution, by Thursday May 16 (ok to use ChatGPT). She may lose points for late submission as well as for resubmission. Some additional points might be lost for academic integrity, though we will not put these on record. 
+
+Ning, we may have to share this with the entire teaching team, including Vincent. Invite the team to comment on our handling of this situation. We are very responsive to negative criticism and might change our approach based on feedback!!
+Abi
+ 
+From: Ning Meng <nmeng2@jh.edu>
+Sent: Wednesday, May 8, 2024 8:40 AM
+To: Maya Aboumrad <maboumr1@jhmi.edu>; Abimereki Muzaale <muzaale@jhmi.edu>
+Subject: Re: homework 5 
+ 
+Hi Maya,
+
+I haven’t faced this situation before, let me forward this email to Prof. Muzaale to seek further suggestions. 
+
+My first thought is to let him resubmit their own work rather than upload the solution, but I am not sure.
+
+Hope this helps.
+
+Sincerely,
+
+Ning
+ 
+发件人: Maya Aboumrad <maboumr1@jhmi.edu>
+发送时间: 星期三, 五月 8, 2024 08:35
+收件人: Ning Meng <nmeng2@jh.edu>
+主题: homework 5 
+ 
+Hey Ning,
+
+Would you mind checking the homework 5 submission for Tenzin Lhaksampa? The student submitted their do file late, and it looks like they copied/pasted the hw5 answer key (even the annotations are the same). The answer key is missing code for the question 1 excel output, and so is the student's code. I'm not sure how to handle grading for this - can you please advise?
+
+Thanks so much for your help!
+Maya
+
 ```
-      1. Truth
-               \
-3. Knowledge -> 2. Bias-Variance -> 5. Process -> 6. Data
-               /
-                4. Ethics
-``` 
+
+# Open Forum 
