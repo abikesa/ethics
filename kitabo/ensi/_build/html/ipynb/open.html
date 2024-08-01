@@ -397,9 +397,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mu-tokens-base-case-pretraining"><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">tokens</span></code> Base-case/Pretraining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sigma-context-varcov-matrix-transformer"><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code> Varcov-matrix/Transformer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meaning-predictive-accuracy-generative"><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">meaning</span></code> Predictive-accuracy/Generative</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mu-text"><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">text</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sigma-context"><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pretext"><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">pretext</span></code></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essays">Essays</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bio">1 Bio</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crisis">2 Crisis?</a></li>
@@ -434,8 +434,8 @@ document.write(`
                       3. h(t) 
 </pre></div>
 </div>
-<section id="mu-tokens-base-case-pretraining">
-<h2><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">tokens</span></code> Base-case/Pretraining<a class="headerlink" href="#mu-tokens-base-case-pretraining" title="Permalink to this heading">#</a></h2>
+<section id="mu-text">
+<h2><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">text</span></code><a class="headerlink" href="#mu-text" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><strong>Pre-training</strong>:
 GPT models are pre-trained on a large corpus of text data. During this phase, the model learns the statistical properties of the language, including grammar, vocabulary, idioms, and even some factual knowledge. This pre-training is done in an unsupervised manner, meaning the model doesn’t know the “correct” output; instead, it learns by predicting the next word in a sentence based on the previous words.</p></li>
@@ -443,15 +443,15 @@ GPT models are pre-trained on a large corpus of text data. During this phase, th
 <li><p>Similarly, in a Transformer model, the “melody” can be thought of as the input tokens (words, for instance). The “chords” are the surrounding words or tokens that the attention mechanism uses to reinterpret the context of each word. Just as the meaning of the note B changes with different chords, the significance of a word can shift depending on its context provided by other words. The attention mechanism dynamically adjusts the “chordal” context, allowing the model to emphasize different aspects or interpretations of the same input</p></li>
 </ul>
 </section>
-<section id="sigma-context-varcov-matrix-transformer">
-<h2><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code> Varcov-matrix/Transformer<a class="headerlink" href="#sigma-context-varcov-matrix-transformer" title="Permalink to this heading">#</a></h2>
+<section id="sigma-context">
+<h2><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code><a class="headerlink" href="#sigma-context" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p><strong>Contextual Understanding</strong>:
 The training phase helps the model understand context by looking at how words and phrases are used together. This is where the attention mechanism comes into play—it allows the model to focus on different parts of the input data, effectively “learning” the context in which words appear.</p></li>
 </ul>
 </section>
-<section id="meaning-predictive-accuracy-generative">
-<h2><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">meaning</span></code> Predictive-accuracy/Generative<a class="headerlink" href="#meaning-predictive-accuracy-generative" title="Permalink to this heading">#</a></h2>
+<section id="pretext">
+<h2><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">pretext</span></code><a class="headerlink" href="#pretext" title="Permalink to this heading">#</a></h2>
 <ul>
 <li><p><strong>Contextual Predictions</strong>:
 Once trained, the model can generate predictions based on the context provided by the input text. For example, if given a sentence, it can predict the next word or complete the sentence by considering the context provided by the preceding words. The model uses the patterns it learned during training to make these predictions, ensuring they are contextually relevant.</p></li>
@@ -661,9 +661,9 @@ no less than 44 pages in the authors quest for a “deeper understanding” of t
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mu-tokens-base-case-pretraining"><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">tokens</span></code> Base-case/Pretraining</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sigma-context-varcov-matrix-transformer"><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code> Varcov-matrix/Transformer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#meaning-predictive-accuracy-generative"><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">meaning</span></code> Predictive-accuracy/Generative</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mu-text"><span class="math notranslate nohighlight">\(\mu\)</span> <code class="docutils literal notranslate"><span class="pre">text</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sigma-context"><span class="math notranslate nohighlight">\(\sigma\)</span> <code class="docutils literal notranslate"><span class="pre">context</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pretext"><span class="math notranslate nohighlight">\(\%\)</span> <code class="docutils literal notranslate"><span class="pre">pretext</span></code></a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essays">Essays</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bio">1 Bio</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#crisis">2 Crisis?</a></li>
